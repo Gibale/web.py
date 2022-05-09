@@ -106,8 +106,7 @@ ranking = []
 
 for valor, saliente in web.items():
     s = saliente.count("https")+1
-    e = 0
-    entrante = 0
+    e = 2
     
     for x in web.items():
         a = x.count(valor)
